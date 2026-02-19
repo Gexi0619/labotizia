@@ -10,7 +10,7 @@ from telegram import Bot
 
 SENT_NEWS_JSON = "sent_news.json"
 
-# 读取 GitHub Secrets（从环境变量获取）
+# Read GitHub Secrets (from environment variables)
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
